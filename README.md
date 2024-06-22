@@ -5,7 +5,7 @@ Transform your Pimoroni RGB Keypad into a customizable command center with this 
 ## Features
 
 * **Vibrant Customization:**  Make it your own! The keypad lights up in a mesmerizing rainbow pattern, and you can easily modify the colors to match your style.
-* **Three Layers of Power:** Access a multitude of commands across three different virtual button layout layers, activated by three dedicated keys.
+* **Three Layers of Power:** Access a multitude of commands across three different virtual button layout layers, activated by three dedicated keys.  With the virtual layers, this gives you up to 39 virtual macro buttons from the 13 available physical buttons.
 * **Intuitive Key Mapping:**  Assign keyboard shortcuts, application launches, or even custom scripts to each key.
 * **Easy to Use:**  Plug and play with CircuitPython – no complex setup required.
 
@@ -32,19 +32,20 @@ Key Mapping Examples
 Here's a glimpse of how you can map keys (customize to your liking):
 
 Layer 1:
-Key 3: Ctrl+V (Paste)
-Key 4: Ctrl+Z (Undo)
-Key 7: Alt+F4 (Close Window)
+- Key 3: Ctrl+V (Paste)
+- Key 4: Ctrl+Z (Undo)
+- Key 7: Alt+F4 (Close Window)
 
 Layer 2:
-Key 3: Win+A (Open Action Center)
-Key 5: Win+L (Lock Screen)
-Key 9: Win+Shift+S (Screenshot)
+- Key 3: Win+A (Open Action Center)
+- Key 5: Win+L (Lock Screen)
+- Key 9: Win+Shift+S (Screenshot)
 
 Layer 3:
-Key 4: Alt+F (File Menu)
-Key 6: Ctrl+1 (Switch to Tab 1)
-Key 15: Alt+F (File Menu)
+- Key 4: Alt+F (File Menu)
+- Key 6: Ctrl+1 (Switch to Tab 1)
+- Key 15: Alt+F (File Menu)
+  
 Feel free to explore the extensive list of keycodes in the adafruit_hid.keycode module for even more possibilities!
 
 Contributing
