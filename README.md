@@ -13,7 +13,7 @@ Transform your Pimoroni RGB Keypad into a customizable command center with this 
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/norton287/RGB-Macro-Keypad.git](https://github.com/norton287/RGB-Macro-Keypad.git)
+   git clone https://github.com/norton287/RGB-Macro-Keypad.git
 
 Install CircuitPython:
 
